@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.frame {
+    background-color: lightgrey;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.line_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ratio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 5%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line_3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.left {
+    display: flex;
+}
+
+.left input {
+    margin-left: 3px;
+    width: 70px;
+    border-radius: 3px;
+}
+
+.right button {
+    width: 50px;
+    border-radius: 3px;
+}
